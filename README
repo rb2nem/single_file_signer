@@ -1,0 +1,6 @@
+
+
+npm install -g uglify-js-es6 browserify
+
+browserify src/renderer.js -o /tmp/out.js
+uglifyjs /tmp/out.js > dist/bundle.js
