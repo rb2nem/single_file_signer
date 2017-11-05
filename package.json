@@ -20,7 +20,13 @@
     "electron": "~1.7.8",
     "grunt": "~0.4.1",
     "grunt-combine": "~0.8.3",
-    "grunt-lineending": "~0.2.4"
+    "grunt-lineending": "~0.2.4",
+    "grunt-browserify": "5.2.0",
+    "grunt-exec": "3.0.0",
+    "uglify-js":"3.1.7",
+    "uglify-js-es6":"2.8.9",
+    "browserify": "14.5.0"
+
   },
   "dependencies": {
     "nem-library": "~0.10.0",
